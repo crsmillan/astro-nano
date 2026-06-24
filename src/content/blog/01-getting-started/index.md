@@ -1,7 +1,7 @@
 ---
 title: "Getting started"
 description: "Hit the ground running."
-date: "Mar 22 2024"
+date: "2024-03-22"
 ---
 
 The basic configuration of Nano is pretty simple.

@@ -15,4 +15,7 @@ export default {
     },
   },
   plugins: [require("@tailwindcss/typography")],
+  corePlugins: {
+    fontFamily: true,
+  },
 };

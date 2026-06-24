@@ -1,0 +1,6 @@
+allowBuilds:
+  esbuild: true
+  sharp: true
+minimumReleaseAgeExclude:
+  - eslint-plugin-astro@2.1.0
+  - yaml@2.8.3

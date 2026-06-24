@@ -1,5 +1,5 @@
 ---
-import { getCollection } from "astro:content";
+import { getCollection, getEntry, render } from "astro:content";
 import PageLayout from "@layouts/PageLayout.astro";
 import Container from "@components/Container.astro";
 import { dateRange } from "@lib/utils";
@@ -10,7 +10,9 @@ const collection = (await getCollection("work"))
 
 const work = await Promise.all(
   collection.map(async (item) => {
-    const { Content } = await item.render();
+    const entry = await getEntry(item.collection, item.id);
+    if (!entry) throw new Error(`Entry not found: ${item.collection}/${item.id}`);
+    const { Content } = await render(entry);
     return { ...item, Content };
   })
 );
