@@ -1,25 +1,25 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@astrojs/check': ^0.9.4
-  '@astrojs/mdx': ^4.0.2
-  '@astrojs/rss': ^4.0.10
-  '@astrojs/sitemap': ^3.2.1
-  '@astrojs/tailwind': ^5.1.3
-  '@fontsource/inter': ^5.0.17
-  '@fontsource/lora': ^5.0.16
-  '@tailwindcss/typography': ^0.5.10
-  '@typescript-eslint/eslint-plugin': ^7.3.1
-  '@typescript-eslint/parser': ^7.3.1
-  astro: ^5.0.5
-  clsx: ^2.1.0
-  eslint: ^8.57.0
+  '@astrojs/check': ^0.9.9
+  '@astrojs/mdx': ^4.3.14
+  '@astrojs/rss': ^4.0.18
+  '@astrojs/sitemap': ^3.7.3
+  '@astrojs/tailwind': ^5.1.5
+  '@fontsource/inter': ^5.2.8
+  '@fontsource/lora': ^5.2.8
+  '@tailwindcss/typography': ^0.5.20
+  '@typescript-eslint/eslint-plugin': ^7.18.0
+  '@typescript-eslint/parser': ^7.18.0
+  astro: ^5.18.2
+  clsx: ^2.1.1
+  eslint: ^8.57.1
   eslint-plugin-astro: ^0.32.0
-  eslint-plugin-jsx-a11y: ^6.8.0
-  sharp: ^0.33.3
-  tailwind-merge: ^2.2.2
-  tailwindcss: ^3.4.1
-  typescript: ^5.4.2
+  eslint-plugin-jsx-a11y: ^6.10.2
+  sharp: ^0.33.5
+  tailwind-merge: ^2.6.1
+  tailwindcss: ^3.4.19
+  typescript: ^5.9.3
 
 dependencies:
   '@astrojs/check': 0.9.9_typescript@5.9.3
@@ -125,7 +125,7 @@ packages:
       remark-rehype: 11.1.2
       remark-smartypants: 3.0.2
       shiki: 3.23.0
-      smol-toml: 1.6.1
+      smol-toml: 1.7.0
       unified: 11.0.5
       unist-util-remove-position: 5.0.0
       unist-util-visit: 5.1.0
@@ -189,7 +189,7 @@ packages:
       tailwindcss: ^3.0.24
     dependencies:
       astro: 5.18.2_typescript@5.9.3
-      autoprefixer: 10.5.0_postcss@8.5.15
+      autoprefixer: 10.5.1_postcss@8.5.15
       postcss: 8.5.15
       postcss-load-config: 4.0.2_postcss@8.5.15
       tailwindcss: 3.4.19
@@ -1813,8 +1813,8 @@ packages:
       eslint-visitor-keys: 3.4.3
     dev: false
 
-  /@ungap/structured-clone/1.3.1:
-    resolution: {integrity: sha512-mUFwbeTqrVgDQxFveS+df2yfap6iuP20NAKAsBt5jDEoOTDew+zwLAOilHCeQJOVSvmgCX4ogqIrA0mnyr08yQ==}
+  /@ungap/structured-clone/1.3.2:
+    resolution: {integrity: sha512-5jsZFwgR5rTdKwidH9Qmat75RKwqfpKlWWB1frDkljN127mwqBu8K0PYo7/hFpF03IEJpfVPpCQDY/eDx3iHvA==}
     dev: false
 
   /@volar/kit/2.4.28_typescript@5.9.3:
@@ -1845,7 +1845,7 @@ packages:
       path-browserify: 1.0.1
       request-light: 0.7.0
       vscode-languageserver: 9.0.1
-      vscode-languageserver-protocol: 3.18.0
+      vscode-languageserver-protocol: 3.18.1
       vscode-languageserver-textdocument: 1.0.12
       vscode-uri: 3.1.0
     dev: false
@@ -1854,7 +1854,7 @@ packages:
     resolution: {integrity: sha512-Rh/wYCZJrI5vCwMk9xyw/Z+MsWxlJY1rmMZPsxUoJKfzIRjS/NF1NmnuEcrMbEVGja00aVpCsInJfixQTMdvLw==}
     dependencies:
       '@volar/language-core': 2.4.28
-      vscode-languageserver-protocol: 3.18.0
+      vscode-languageserver-protocol: 3.18.1
       vscode-languageserver-textdocument: 1.0.12
       vscode-uri: 3.1.0
     dev: false
@@ -2125,7 +2125,7 @@ packages:
       rehype: 13.0.2
       semver: 7.8.5
       shiki: 3.23.0
-      smol-toml: 1.6.1
+      smol-toml: 1.7.0
       svgo: 4.0.1
       tinyexec: 1.2.4
       tinyglobby: 0.2.17
@@ -2196,14 +2196,14 @@ packages:
     engines: {node: '>= 0.4'}
     dev: false
 
-  /autoprefixer/10.5.0_postcss@8.5.15:
-    resolution: {integrity: sha512-FMhOoZV4+qR6aTUALKX2rEqGG+oyATvwBt9IIzVR5rMa2HRWPkxf+P+PAJLD1I/H5/II+HuZcBJYEFBpq39ong==}
+  /autoprefixer/10.5.1_postcss@8.5.15:
+    resolution: {integrity: sha512-jwM2pcTuCWUoN70FEvf5XrXyDbUgRURK4FnU8v0jWZZYU/KkVvN9T33mu1sVLFY9JW3kTWzKheEpn6xYLRc/VA==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
-      browserslist: 4.28.2
+      browserslist: 4.28.4
       caniuse-lite: 1.0.30001799
       fraction.js: 5.3.4
       picocolors: 1.1.1
@@ -2289,16 +2289,16 @@ packages:
       fill-range: 7.1.1
     dev: false
 
-  /browserslist/4.28.2:
-    resolution: {integrity: sha512-48xSriZYYg+8qXna9kwqjIVzuQxi+KYWp2+5nCYnYKPTr0LvD89Jqk2Or5ogxz0NUMfIjhh2lIUX/LyX9B4oIg==}
+  /browserslist/4.28.4:
+    resolution: {integrity: sha512-MTc8i/x9jBQd1iMw2CFGS+rwMa07eYjLR0CCTLDACl9xhxy+nIs3KeML/biicXtk9JrZ6dnnTatmc7ErPXIxqw==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
       baseline-browser-mapping: 2.10.38
       caniuse-lite: 1.0.30001799
-      electron-to-chromium: 1.5.376
-      node-releases: 2.0.48
-      update-browserslist-db: 1.2.3_browserslist@4.28.2
+      electron-to-chromium: 1.5.378
+      node-releases: 2.0.49
+      update-browserslist-db: 1.2.3_browserslist@4.28.4
     dev: false
 
   /call-bind-apply-helpers/1.0.2:
@@ -2726,8 +2726,8 @@ packages:
       gopd: 1.2.0
     dev: false
 
-  /electron-to-chromium/1.5.376:
-    resolution: {integrity: sha512-cUVA7/RvbFTEuw/i3obUwDTRIXojaxkResf+ibByPFxjc6XK3VNtcQXV0NSbAlJ0FMjcJGgftVVB4Qo184EXvA==}
+  /electron-to-chromium/1.5.378:
+    resolution: {integrity: sha512-VinvOAuuPmdD1guEgGv5f2Qp7/vlfqOrUOMYNnOD4wj3pit8kRsQHzfIf6teyUGWo15Tg5+bOJaRunvyltpVWQ==}
     dev: false
 
   /emmet/2.4.11:
@@ -3058,7 +3058,7 @@ packages:
       '@humanwhocodes/config-array': 0.13.0
       '@humanwhocodes/module-importer': 1.0.1
       '@nodelib/fs.walk': 1.2.8
-      '@ungap/structured-clone': 1.3.1
+      '@ungap/structured-clone': 1.3.2
       ajv: 6.15.0
       chalk: 4.1.2
       cross-spawn: 7.0.6
@@ -3215,7 +3215,7 @@ packages:
   /fast-xml-builder/1.2.0:
     resolution: {integrity: sha512-00aAWieqff+ZJhsXA4g1g7M8k+7AYoMUUHF+/zFb5U6Uv/P0Vl4QZo84/IcufzYalLuEj9928bXN9PbbFzMF0Q==}
     dependencies:
-      path-expression-matcher: 1.6.0
+      path-expression-matcher: 1.6.1
       xml-naming: 0.1.0
     dev: false
 
@@ -3226,7 +3226,7 @@ packages:
       '@nodable/entities': 2.2.0
       fast-xml-builder: 1.2.0
       is-unsafe: 1.0.1
-      path-expression-matcher: 1.6.0
+      path-expression-matcher: 1.6.1
       strnum: 2.4.1
       xml-naming: 0.1.0
     dev: false
@@ -3559,7 +3559,7 @@ packages:
     dependencies:
       '@types/hast': 3.0.4
       '@types/unist': 3.0.3
-      '@ungap/structured-clone': 1.3.1
+      '@ungap/structured-clone': 1.3.2
       hast-util-from-parse5: 8.0.3
       hast-util-to-parse5: 8.0.1
       html-void-elements: 3.0.0
@@ -4313,7 +4313,7 @@ packages:
     dependencies:
       '@types/hast': 3.0.4
       '@types/mdast': 4.0.4
-      '@ungap/structured-clone': 1.3.1
+      '@ungap/structured-clone': 1.3.2
       devlop: 1.1.0
       micromark-util-sanitize-uri: 2.0.1
       trim-lines: 3.0.1
@@ -4731,8 +4731,8 @@ packages:
       thenify-all: 1.6.0
     dev: false
 
-  /nanoid/3.3.14:
-    resolution: {integrity: sha512-U9kYi5bpVMEI31yC8iw4bJJp0avcHXA0W8/wNfLfnvJYzihQo2ZRPYPvpAAd570HAcCBjCTN7vnr+v4StKl1IQ==}
+  /nanoid/3.3.15:
+    resolution: {integrity: sha512-y7Wygv/7mEOvxTuEQDB8StXdMRBWf1kR/tlhAzBRUFkB2jfcLOAxO/SHmOO2zgz1pVgK29/kyupn059/bCHdjA==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
     dev: false
@@ -4760,8 +4760,8 @@ packages:
     resolution: {integrity: sha512-8DY+kFsDkNXy1sJglUfuODx1/opAGJGyrTuFqEoN90oRc2Vk0ZbD4K2qmKXBBEhZQzdKHIVfEJpDU8Ak2NJEvQ==}
     dev: false
 
-  /node-releases/2.0.48:
-    resolution: {integrity: sha512-1uz8041X6LoI6ZSdZacM9lVY28vuzDlSKitnpbSNK0RfKoIJkX29NBPVEFXhnuSuEOA9Ww0xnPJ+ILWbGAv8DA==}
+  /node-releases/2.0.49:
+    resolution: {integrity: sha512-f06bl1D+8ZDkn2oOQQKAh5/otFWqVnM1Q5oerA8Pex7UfT66Tx4IPHIqVVFKqFT3FUtaDstdgkM7yT7JWhqxfw==}
     engines: {node: '>=18'}
     dev: false
 
@@ -4962,8 +4962,8 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
-  /path-expression-matcher/1.6.0:
-    resolution: {integrity: sha512-e5y7RCLHKjemsgQ4eqGJtPyr10ILz25HO7flzxhTV8bgvd5yHx98DGtCAtbVW9f2TqnYI/gEVZd+vz7snrdPTw==}
+  /path-expression-matcher/1.6.1:
+    resolution: {integrity: sha512-h7bxdzhHk8Knyc4Tj+jMaa7fEEoUJy7p1qtbVgkYg1Uhpe5Np5VuGXCRZnkZvU+Q42M1vStt0ifa3ueykRJPmQ==}
     engines: {node: '>=14.0.0'}
     dev: false
 
@@ -5115,7 +5115,7 @@ packages:
     resolution: {integrity: sha512-FfR8sjd4em2T6fb3I2MwAJU7HWVMr9zba+enmQeeWFfCbm+UOC/0X4DS8XtpUTMwWMGbjKYP7xjfNekzyGmB3A==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
-      nanoid: 3.3.14
+      nanoid: 3.3.15
       picocolors: 1.1.1
       source-map-js: 1.2.1
     dev: false
@@ -5717,8 +5717,8 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
-  /smol-toml/1.6.1:
-    resolution: {integrity: sha512-dWUG8F5sIIARXih1DTaQAX4SsiTXhInKf1buxdY9DIg4ZYPZK5nGM1VRIYmEbDbsHt7USo99xSLFu5Q1IqTmsg==}
+  /smol-toml/1.7.0:
+    resolution: {integrity: sha512-aqVvWoyO21L23mb+drl4RmMXbf6N7FdHjAhTRA9ZBL7apWBgfWC16KjrASI+1p9GAroljyMHj6fK67i0UiTNvQ==}
     engines: {node: '>= 18'}
     dev: false
 
@@ -6278,13 +6278,13 @@ packages:
       ufo: 1.6.4
     dev: false
 
-  /update-browserslist-db/1.2.3_browserslist@4.28.2:
+  /update-browserslist-db/1.2.3_browserslist@4.28.4:
     resolution: {integrity: sha512-Js0m9cx+qOgDxo0eMiFGEueWztz+d4+M3rGlmKPT+T4IS/jP4ylw3Nwpu6cpTTP8R1MAC1kF4VbdLt3ARf209w==}
     hasBin: true
     peerDependencies:
       browserslist: '>= 4.21.0'
     dependencies:
-      browserslist: 4.28.2
+      browserslist: 4.28.4
       escalade: 3.2.0
       picocolors: 1.1.1
     dev: false
@@ -6527,8 +6527,8 @@ packages:
       vscode-languageserver-types: 3.17.5
     dev: false
 
-  /vscode-languageserver-protocol/3.18.0:
-    resolution: {integrity: sha512-Zdz+kJ12Iz6tc11xfZyEo501bBATHXrCjmMfnaR3pMnf1CoqZBKIynba3P+/bi9VEdrMbNtAVKYpKhbODvqy+Q==}
+  /vscode-languageserver-protocol/3.18.1:
+    resolution: {integrity: sha512-RTiiVHdpxpYcJVI5sq6S5TLjQ4WDR/rBrIWru+kPXe6sGQ9PFQ3GamrTKLvPqbR4ylr1SoodhmcqbFII0WXVuw==}
     dependencies:
       vscode-jsonrpc: 9.0.0
       vscode-languageserver-types: 3.18.0
